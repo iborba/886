@@ -24,8 +24,7 @@ contract WineSupplyChain {
     emit WineCreated(wineCount, _name, _vineyard, _region, _grape, msg.sender, address(0), "created");
   }
 
-  function getWine(uint _id) public view returns (uint, string memory, string memory, string memory, string memory, address, address, string memory) {
-    Wine memory wine = wines[_id];
-    return (wine.id, wine.name, wine.vineyard, wine.region, wine.grape, wine.owner, wine.producer, wine.status);
+  function getWine(uint _id) public view returns (Wine memory) {
+    return wines[_id];
   }
 }
