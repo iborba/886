@@ -6,5 +6,5 @@ Repo: [Repo](https://github.com/iborba/886)
 
 VeChain: [VeChain](https://docs.vechain.org/)
 
-Truffle: [Truffle](https://archive.trufflesuite.com/docs/truffle/)
+HardHat: [HardHat](https://hardhat.org/)
 
